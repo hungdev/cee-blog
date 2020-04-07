@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Cee
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Cee
 language: en
 timezone: ''
 
@@ -93,9 +93,21 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: utone
+theme: hexo-theme-huhu
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+jsonContent:
+  dateFormat: YYYY/MM/DD
+  pages: false
+  posts:
+    tags: true
+    title: true
+    date: true
+    text: true
+    permalink: true
+    photos: true
+  file: content.json
